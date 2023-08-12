@@ -6,6 +6,8 @@
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only Src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint . --fix",
+    "prettier-fix":"eslint --write .",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "Prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint-Prttier": "yarn lint && yarn Prettier"
