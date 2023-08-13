@@ -16,7 +16,8 @@ export const generateUserId = async () => {
     const nextId = (parseInt(currentId, 10) + 1).toString().padStart(5, '0')
     return nextId
   } catch (error) {
-    console.error('Error generating user id:', error)
+    // eslint-disable-next-line no-console
+    console.log('Error generating user id:', error)
     return null // Handle the error appropriately
   }
 }
