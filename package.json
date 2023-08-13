@@ -7,7 +7,7 @@
     "start": "ts-node-dev --respawn --transpile-only Src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:fix": "eslint . --fix",
-    "prettier-fix":"eslint --write .",
+    "prettier-fix": "eslint --write .",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "Prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint-Prttier": "yarn lint && yarn Prettier"
@@ -32,11 +32,11 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.4.2",
-    "server": "^1.0.38"
+    "server": "^1.0.38",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
   },
-  
-    "lint-staged": {
-      "Src/**/*.ts": "yarn lint-Prttier"
-    }
-  
+  "lint-staged": {
+    "Src/**/*.ts": "yarn lint-Prttier"
+  }
 }
