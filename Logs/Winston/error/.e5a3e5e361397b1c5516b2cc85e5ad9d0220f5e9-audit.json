@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\.e5a3e5e361397b1c5516b2cc85e5ad9d0220f5e9-audit.json",
+    "files": [
+        {
+            "date": 1691990611886,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-11-error.log",
+            "hash": "9ec2b0d666513ed5c04148123572049164b2986a9584b783192abd8ec4dde137"
+        },
+        {
+            "date": 1691993054597,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-12-error.log",
+            "hash": "2c551d5dfb88a4a852e8a605030c8624545629df4487e4111284b55455267d78"
+        },
+        {
+            "date": 1691996447132,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-13-error.log",
+            "hash": "541cf06d6a05b8865ba8f9426e84fea3fcdccea40abce2f26dfa8174f2494472"
+        },
+        {
+            "date": 1692000052939,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-14-error.log",
+            "hash": "82123cf9b29ffc720f918791ab4387e23fbcc420b0266d7e7b54f2c470243e61"
+        },
+        {
+            "date": 1692004882490,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-15-error.log",
+            "hash": "841b562cc743f3aa1bcf75314cda4477e810cd50ebbdbf7e58bf08debccfdd9c"
+        },
+        {
+            "date": 1692007385416,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-16-error.log",
+            "hash": "6c4381331d3ba8852ec5ccfb2a744d2e0aa1245716c0e59d4f28d4b1ee64e3b4"
+        },
+        {
+            "date": 1692010808287,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-17-error.log",
+            "hash": "73175556b93fcc04d290399a700ee593f662419921e9deb0080c69ea8acd29a6"
+        },
+        {
+            "date": 1692021760249,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\error\\error-2023-08-14-20-error.log",
+            "hash": "25d081413fb954d2de7fc42eeca001fbde8f62b0c6934a79166d10ce94ecd463"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,7 +1,21 @@
-import { Request, Response } from 'express'
+import { RequestHandler } from 'express'
 import UserService from './User.service'
+import { z } from 'zod'
 
-const creatUser = async (req: Request, res: Response) => {
+const creatUser: RequestHandler = async (req, res, next) => {
+  const createUserZodSchema = z.object({
+    body: z.object({
+      user: z.object({
+        role: z.string({
+          required_error: 'role is required',
+        }),
+      }),
+    }),
+    password: z.string().optional(),
+  })
+
+  await createUserZodSchema.parseAsync(req)
+
   try {
     const { user } = req.body
     const result = await UserService.createUser(user)
@@ -11,10 +25,7 @@ const creatUser = async (req: Request, res: Response) => {
       data: result,
     })
   } catch (error) {
-    res.status(200).json({
-      success: false,
-      message: 'Failed to Create user',
-    })
+    next(error)
   }
 }
 export default {

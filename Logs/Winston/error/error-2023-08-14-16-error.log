@@ -1,0 +1,25 @@
+Mon Aug 14 2023 16:10:52 [right meow!] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Mon Aug 14 2023 16:19:21 [right meow!] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Mon Aug 14 2023 16:45:16 [right meow!] error: Filed to connect to Database server is not defined
