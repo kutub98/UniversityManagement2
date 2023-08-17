@@ -1,22 +1,23 @@
-import express, { Application } from 'express'
-import cors from 'cors'
-import userRouter from './Apps/Modules/Users/User.router'
-import GlobalErrorHandler from './Errors/GlobalErrorHandler'
+import express, { Application } from 'express';
+import cors from 'cors';
+import userRouter from './Apps/Modules/Users/User.router';
+import GlobalErrorHandler from './Errors/GlobalErrorHandler';
+// import ApiError from './Errors/ApiErrors'
 
-const App: Application = express()
+const App: Application = express();
 
-App.use(cors())
-App.use(express.json())
-App.use(express.urlencoded({ extended: true }))
+App.use(cors());
+App.use(express.json());
+App.use(express.urlencoded({ extended: true }));
 
-App.use('/api/v1/users', userRouter)
+App.use('/api/v1/users', userRouter);
 
-export default App
+export default App;
 
-// App.get('/',  (req: Request, res: Response, next: NextFunction) => {
+// App.get('/',() => {
 
-//   throw new Error( "Testing ERROR LOGGER")
+//   // throw new ApiError( 400)
 
 // })
 
-App.use(GlobalErrorHandler)
+App.use(GlobalErrorHandler);
