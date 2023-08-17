@@ -5,11 +5,23 @@
   "main": "Src/server.ts",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only Src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint . --fix",
+    "prettier-fix": "eslint --write .",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "Prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "lint-Prttier": "yarn lint && yarn Prettier"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
   },
@@ -20,6 +32,12 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "mongoose": "^7.4.2",
-    "server": "^1.0.38"
+    "server": "^1.0.38",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "zod": "^3.22.1"
+  },
+  "lint-staged": {
+    "Src/**/*.ts": "yarn lint-Prttier"
   }
 }

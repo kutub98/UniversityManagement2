@@ -1,0 +1,6 @@
+node_modules
+jsFiles
+.env
+package.json
+README.me
+yarn.lock
