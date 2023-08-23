@@ -10,6 +10,14 @@ export const AcademicSemesterTitle: IacademicSemesterTitle[] = [
   'Fall',
 ];
 
+export const AcdcSmstrTitleCodeMapper: {
+  [key: string]: string;
+} = {
+  Autumn: '01',
+  Summer: '02',
+  Fall: '03',
+};
+
 export const AcademicSemesterCode: IacademicSemesterCode[] = ['01', '02', '03'];
 
 export const AcademicSemesterMonths: IacademicSemesterMonths[] = [
