@@ -9,7 +9,9 @@ export const AcademicSemesterTitle: IacademicSemesterTitle[] = [
   'Summer',
   'Fall',
 ];
+
 export const AcademicSemesterCode: IacademicSemesterCode[] = ['01', '02', '03'];
+
 export const AcademicSemesterMonths: IacademicSemesterMonths[] = [
   'January',
   'February',
