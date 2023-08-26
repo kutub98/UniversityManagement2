@@ -1,12 +1,9 @@
 {
-  "editor.fontSize": 18,
-  "screencastMode.fontSize": 56,
-  "debug.console.fontSize": 16,
-  "scm.inputFontSize": 16,
-  "terminal.integrated.fontSize": 16,
-  "chat.editor.fontSize": 16,
-  "markdown.preview.fontSize": 16,
-  "prettier.endOfLine": "lf",
-  "files.autoSave": "onFocusChange",
-  "autoSaveExt": null
+    "editor.fontSize": 18,
+    "editor.wordWrap": "on",
+    "scm.inputFontSize": 18,
+    "debug.console.fontSize": 18,
+    "markdown.preview.fontSize": 18,
+    "chat.editor.fontSize": 18,
+    "tailwindCSS.rootFontSize": 18
 }
