@@ -1,11 +1,13 @@
 import UserService from './User.service';
 import { catchAsync } from '../../../Shared/catchAsync';
-import { NextFunction, Request, RequestHandler, Response } from 'express';
-import { sendResponse } from '../../../Shared/sendResponse';
+import { Request, RequestHandler, Response } from 'express';
+
 import status from 'http-status-codes';
 import { IUSER } from './User.Interface';
+import sendResponse from '../../../Shared/sendResponse';
+
 const creatUser: RequestHandler = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
+  async (req: Request, res: Response) => {
     const { users } = req.body;
     const result = await UserService.createUser(users);
 
@@ -15,7 +17,6 @@ const creatUser: RequestHandler = catchAsync(
       message: 'Create user successfully',
       data: result,
     });
-    next();
   },
 );
 
