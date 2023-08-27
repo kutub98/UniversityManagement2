@@ -1,9 +1,9 @@
 {
-    "editor.fontSize": 18,
-    "editor.wordWrap": "on",
-    "scm.inputFontSize": 18,
-    "debug.console.fontSize": 18,
-    "markdown.preview.fontSize": 18,
-    "chat.editor.fontSize": 18,
-    "tailwindCSS.rootFontSize": 18
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "scm.inputFontSize": 18,
+  "debug.console.fontSize": 18,
+  "markdown.preview.fontSize": 18,
+  "chat.editor.fontSize": 18,
+  "tailwindCSS.rootFontSize": 18
 }

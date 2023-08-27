@@ -34,3 +34,10 @@ export const AcademicSemesterMonths: IacademicSemesterMonths[] = [
   'November',
   'December',
 ];
+
+export const academicSemesterFilterableFields = [
+  'searchTerm',
+  'title',
+  'code',
+  'year',
+];
