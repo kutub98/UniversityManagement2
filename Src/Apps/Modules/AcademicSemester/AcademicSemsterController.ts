@@ -65,11 +65,11 @@ const updateSingleSemester = catchAsync(async (req: Request, res: Response) => {
 
 const DeleteSingleSemester = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
-  const result = await AcademicSemesterService.getSingleSemester(id);
+  const result = await AcademicSemesterService.DeleteSingleSemester(id);
   sendResponse<IAcademicSemester>(res, {
     statusCode: status.OK,
     success: true,
-    message: ' Single Semester data retrived successfully',
+    message: ' Single Semester deleted successfully',
     data: result,
   });
 });
