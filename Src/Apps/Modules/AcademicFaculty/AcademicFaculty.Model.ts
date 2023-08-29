@@ -11,8 +11,8 @@ const AcademicFacultySchema = new Schema<
   {
     title: {
       type: String,
-      unique: true,
       required: true,
+      unique: true,
     },
   },
   {
@@ -24,6 +24,6 @@ const AcademicFacultySchema = new Schema<
 );
 
 export const AcademicFaculty = model<IAcademicFaculty, IAcademicFacultyModal>(
-  'AcademicFacult',
+  'AcademicFaculty',
   AcademicFacultySchema,
 );
