@@ -5,12 +5,18 @@ import { departmentValidation } from './department.validation';
 
 const router = express.Router();
 
-router.get('/:id', deptController.getSingleDepartment);
 router.post(
   '/createDept',
   validateRequest(departmentValidation.departmentValidationZodSchema),
   deptController.createDept,
 );
 router.get('/', deptController.getAllDepartment);
+router.get('/:id', deptController.getSingleDepartment);
+router.patch(
+  '/:id',
+  validateRequest(departmentValidation.departmentUpdateValidationZodSchema),
+  deptController.updateSingleDepartment,
+);
 
+router.delete('/:id', deptController.deleteSingleDepartment);
 export const academicDepartmentRouter = router;
