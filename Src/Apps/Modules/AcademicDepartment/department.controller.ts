@@ -27,12 +27,24 @@ const getAllDepartment = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IAcademicDept[]>(res, {
     statusCode: status.OK,
     success: true,
-    message: 'Successfully created department',
+    message: 'Successfully retrived department',
     data: result.data,
+  });
+});
+
+const getSingleDepartment = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await DeptService.getSingleDepartment(id);
+  sendResponse<IAcademicDept>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully retrived single department data',
+    data: result,
   });
 });
 
 export const deptController = {
   createDept,
   getAllDepartment,
+  getSingleDepartment,
 };

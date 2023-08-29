@@ -5,6 +5,7 @@ import { departmentValidation } from './department.validation';
 
 const router = express.Router();
 
+router.get('/:id', deptController.getSingleDepartment);
 router.post(
   '/createDept',
   validateRequest(departmentValidation.departmentValidationZodSchema),
