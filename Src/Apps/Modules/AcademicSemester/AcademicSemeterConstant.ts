@@ -9,7 +9,17 @@ export const AcademicSemesterTitle: IacademicSemesterTitle[] = [
   'Summer',
   'Fall',
 ];
+
+export const AcdcSmstrTitleCodeMapper: {
+  [key: string]: string;
+} = {
+  Autumn: '01',
+  Summer: '02',
+  Fall: '03',
+};
+
 export const AcademicSemesterCode: IacademicSemesterCode[] = ['01', '02', '03'];
+
 export const AcademicSemesterMonths: IacademicSemesterMonths[] = [
   'January',
   'February',
@@ -23,4 +33,11 @@ export const AcademicSemesterMonths: IacademicSemesterMonths[] = [
   'October',
   'November',
   'December',
+];
+
+export const academicSemesterFilterableFields = [
+  'searchTerm',
+  'title',
+  'code',
+  'year',
 ];

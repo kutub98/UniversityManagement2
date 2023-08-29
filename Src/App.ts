@@ -1,23 +1,32 @@
-import express, { Application } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
-import userRouter from './Apps/Modules/Users/User.router';
 import GlobalErrorHandler from './Errors/GlobalErrorHandler';
-// import ApiError from './Errors/ApiErrors'
-
+import Routes from './Apps/Routes';
+import status from 'http-status-codes';
 const App: Application = express();
 
 App.use(cors());
 App.use(express.json());
 App.use(express.urlencoded({ extended: true }));
 
-App.use('/api/v1/users', userRouter);
+App.use('/api/v1/', Routes);
 
 export default App;
 
 // App.get('/',() => {
 
-//   // throw new ApiError( 400)
-
 // })
+
+App.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(status.BAD_REQUEST).json({
+    success: false,
+    message: 'Not Found',
+    errorMessages: {
+      path: req.originalUrl,
+      message: 'Api Not found',
+    },
+  });
+  next();
+});
 
 App.use(GlobalErrorHandler);

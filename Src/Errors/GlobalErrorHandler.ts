@@ -10,6 +10,7 @@ import ValidationErrorHandler from './ValidationErrorHandler';
 import ApiError from './ApiErrors';
 import { ZodError } from 'zod';
 import ZodErrorHandler from './ZodErrorHandler';
+import handlingCastError from './handlingCastError';
 
 const GlobalErrorHandler: ErrorRequestHandler = (
   error,
@@ -30,6 +31,11 @@ const GlobalErrorHandler: ErrorRequestHandler = (
     (statusCode = simplifiedError.statusCode),
       (message = simplifiedError?.message),
       (errorMessages = simplifiedError.errorMessages);
+  } else if (error.name === 'CastError') {
+    const simplifiedError = handlingCastError(error);
+    statusCode = simplifiedError.statusCode;
+    message = simplifiedError.message;
+    errorMessages = simplifiedError.errorMessages;
   } else if (error instanceof ZodError) {
     const simplifiedError = ZodErrorHandler(error);
     (statusCode = simplifiedError.statusCode),
