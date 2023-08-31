@@ -16,8 +16,17 @@ export const UserSchema = new Schema<IUSER>(
       type: String,
       required: true,
     },
+    student: {
+      type: Schema.Types.ObjectId,
+      ref: 'Student',
+    },
   },
-  { timestamps: true },
+  {
+    timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
+  },
 );
 
 export const User = model<IUSER, userModel>('users', UserSchema);
