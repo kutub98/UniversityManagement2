@@ -13,10 +13,6 @@ App.use('/api/v1/', Routes);
 
 export default App;
 
-// App.get('/',() => {
-
-// })
-
 App.use((req: Request, res: Response, next: NextFunction) => {
   res.status(status.BAD_REQUEST).json({
     success: false,

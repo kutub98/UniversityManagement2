@@ -80,14 +80,14 @@ const updateSingleDepartment = async (
 ): Promise<IAcademicDept | null> => {
   const result = await AcademicDept.findByIdAndUpdate({ _id: id }, payload, {
     new: true,
-  });
+  }).populate('academicFaculty');
   return result;
 };
 
 const deleteSingleDepartment = async (
   id: string,
 ): Promise<IAcademicDept | null> => {
-  const result = await AcademicDept.findById(id);
+  const result = await AcademicDept.findByIdAndDelete(id);
   return result;
 };
 

@@ -6,10 +6,10 @@ import status from 'http-status-codes';
 import { IUSER } from './User.Interface';
 import sendResponse from '../../../Shared/sendResponse';
 
-const creatUser: RequestHandler = catchAsync(
+const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { users } = req.body;
-    const result = await UserService.createUser(users);
+    const { student, ...users } = req.body;
+    const result = await UserService.createStudent(student, users);
 
     sendResponse<IUSER>(res, {
       statusCode: status.OK,
@@ -21,5 +21,5 @@ const creatUser: RequestHandler = catchAsync(
 );
 
 export default {
-  creatUser,
+  createStudent,
 };
