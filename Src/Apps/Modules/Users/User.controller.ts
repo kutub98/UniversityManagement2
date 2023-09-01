@@ -8,8 +8,8 @@ import sendResponse from '../../../Shared/sendResponse';
 
 const createStudent: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    const { student, ...users } = req.body;
-    const result = await UserService.createStudent(student, users);
+    const { student, ...user } = req.body;
+    const result = await UserService.createStudent(student, user);
 
     sendResponse<IUSER>(res, {
       statusCode: status.OK,

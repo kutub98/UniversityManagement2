@@ -1,365 +1,395 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\.9e00005645405fef125522dafa70acc4e75dab7f-audit.json",
-  "files": [
-    {
-      "date": 1692360096385,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-18-18-success.log",
-      "hash": "449bf40bdc5fec4bee6507bd3e5d68a793ed99a0168870cfd9e0b3dfe99a6b52"
-    },
-    {
-      "date": 1692789600414,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-17-success.log",
-      "hash": "13576e87e2bb2e5d22ebff0a7be2d74e81612b24af6707b4aa951a4de704f0d3"
-    },
-    {
-      "date": 1692796046057,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-19-success.log",
-      "hash": "5575c78a2eded1328cbeec30973821dbf922ee4c1db1ca8124bc2d4aae4cc30c"
-    },
-    {
-      "date": 1692799265199,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-20-success.log",
-      "hash": "7026b743e938ec60dc83f099c06ddf094a7e001d2c31baea3e4989620319a70e"
-    },
-    {
-      "date": 1692806879500,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-22-success.log",
-      "hash": "a97517ede0a0a42c971e3349ed85aafb5dbc70ccf29adebe76d75168411568fe"
-    },
-    {
-      "date": 1692810027775,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-23-success.log",
-      "hash": "62e8cda02b2a85d63fd61bba1b4b427b77407c68402c6035afa5a974203e3074"
-    },
-    {
-      "date": 1692818136606,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-01-success.log",
-      "hash": "cfdf1064db73624311a27137b4bffa8101295dcbcd11440e7cc507ac89c9cd50"
-    },
-    {
-      "date": 1692820800261,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-02-success.log",
-      "hash": "6408d97c67b9b91fb8348aca7cd235819f2a2672465e8033217f7ab2da563bf0"
-    },
-    {
-      "date": 1692853087761,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-10-success.log",
-      "hash": "a3e67e506d216d6b619d842dbb210d84deaa91ecbdffae1f1ae0ddeb30bd6faa"
-    },
-    {
-      "date": 1692853210300,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-11-success.log",
-      "hash": "30055122be58590fc8bce9da59d1211b7ff625366ada892a3b06e1cd4f70d2a9"
-    },
-    {
-      "date": 1692889758141,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-21-success.log",
-      "hash": "117a1ebf400b8a159ec6948a273f8393bbeefcceb2aa034265f757969a5f12d6"
-    },
-    {
-      "date": 1692897320523,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-23-success.log",
-      "hash": "ba7e79c18564bb2100386d3295796f6bc615f2e48b530181fb0afbf9f29697b4"
-    },
-    {
-      "date": 1692900116916,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-25-00-success.log",
-      "hash": "3fbf72414bc69f7947063437dabe7e3b149360b19dcc8e61e6244b673fa37e82"
-    },
-    {
-      "date": 1692904247322,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-25-01-success.log",
-      "hash": "1a816aec235644e9dd95a52a8033d1416aabe81f83e66aaa6fe0677f92d2f881"
-    },
-    {
-      "date": 1692992838856,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-01-success.log",
-      "hash": "734e791a8abc60df10d4f912f3eab3a86ee81b58cec76d86c05df3a7b4a74d28"
-    },
-    {
-      "date": 1693046922569,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-16-success.log",
-      "hash": "e4b33b95236ddaa1c94f45aa0cc09dafa3fbfcd55dd159c6dbfbc31066f1a747"
-    },
-    {
-      "date": 1693051188162,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-17-success.log",
-      "hash": "3ef6217baa4b95b45b6c146b6f277ed21da8ca2533af349c5cc28ae4ba793072"
-    },
-    {
-      "date": 1693051975236,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-18-success.log",
-      "hash": "60f9479dd08cc32cebe89d3d2062036a6286b048256f536891734644b55c95c5"
-    },
-    {
-      "date": 1693055691691,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-19-success.log",
-      "hash": "15d3dbf43dced1a80e19f242be27ea5f80cbc253b5731ad02d113acc13248b30"
-    },
-    {
-      "date": 1693059654458,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-20-success.log",
-      "hash": "2851baa6908af5c3def583f1d588850d8cb6977d027d0671cb31bca6d1b6a5de"
-    },
-    {
-      "date": 1693062641902,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-21-success.log",
-      "hash": "c489424bb5c8e7f299b89aa3c95a19724951fdf125de0d70c86f385ccb396faa"
-    },
-    {
-      "date": 1693069880365,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-23-success.log",
-      "hash": "755e54624a66c22c0e1ff20e88964d4c407064b3f1048eb9100820defc3f9bef"
-    },
-    {
-      "date": 1693073339188,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-00-success.log",
-      "hash": "60f9152dc2a1d0412ff75f398c0b85bbc93317aba88bf1204391e736dcb6241a"
-    },
-    {
-      "date": 1693076730572,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-01-success.log",
-      "hash": "fd058090a13926f5b16441416fdb9cf0442bfd70b7e8cfe354a715837a59db4b"
-    },
-    {
-      "date": 1693112878316,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-11-success.log",
-      "hash": "f21a3b9537b55e287adb2ab33da12dcd7058cca6c1a17f3a1a535b2eb60b1f6a"
-    },
-    {
-      "date": 1693119605740,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-13-success.log",
-      "hash": "76f694101ef2c909b731a4b63ad59af59ac2493494bda0933ba2a1c42c068686"
-    },
-    {
-      "date": 1693125632118,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-14-success.log",
-      "hash": "b6575726311fdc2c8efadbe8b30001ab55b2ed3c55c0f982bd8761e0eb78945d"
-    },
-    {
-      "date": 1693131126891,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-16-success.log",
-      "hash": "f8df3507b6f6a7c8f6612646b6fd6e1052122aa6239e74ee41570064e046f5a8"
-    },
-    {
-      "date": 1693156872651,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-23-success.log",
-      "hash": "741cbdad02a0c540b3b0e2737d0b14b5243e55d67f0644083a4eb6f278345d07"
-    },
-    {
-      "date": 1693161367686,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-00-success.log",
-      "hash": "f21cb3f979636e300e458a31163b16b4bfce55397b90849430e6b8c7fdd9b7b6"
-    },
-    {
-      "date": 1693197224176,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-10-success.log",
-      "hash": "2f4ded27d10cdf855fb1eb1e918d19f643375654eb5cdfd29761b4e2cc18582f"
-    },
-    {
-      "date": 1693198877483,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-11-success.log",
-      "hash": "e241c0fee9d7e114e09ebf903d544747f16e1aa579b6d067543db64a5bee921b"
-    },
-    {
-      "date": 1693205848966,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-12-success.log",
-      "hash": "26a87101270a2412cdcaeb27c3f7ad1c672bbb51133a6410b83c4fd1a7c60289"
-    },
-    {
-      "date": 1693208881403,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-13-success.log",
-      "hash": "bcd958b36e0cc10be8136b030d2904cb350fcd758887d90eab25265e46cdaf4f"
-    },
-    {
-      "date": 1693214244769,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-15-success.log",
-      "hash": "b98e499bfef9e1dfc60cc918985ec2df753c233a1a58f7adef14494ec2bb4eeb"
-    },
-    {
-      "date": 1693216800946,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-16-success.log",
-      "hash": "52111ae312e04bb412ae97169764159f086744ffec4d30a5d7a405388f6c7d77"
-    },
-    {
-      "date": 1693220422975,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-17-success.log",
-      "hash": "b9adedab3697e9431aca920b8107e1ccd84db77b03c826540aef9b4dfa3932d5"
-    },
-    {
-      "date": 1693225729887,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-18-success.log",
-      "hash": "65872e6da7f5e0d74b9885fbd0aab316a8c12f4cc09d09c7c672f86c33ae97f1"
-    },
-    {
-      "date": 1693229619278,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-19-success.log",
-      "hash": "2e856d240dacaaaac88b9cb36dadef5408374674f346a6394e217b27cc4333cf"
-    },
-    {
-      "date": 1693234132744,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-20-success.log",
-      "hash": "67799887950fff792beb170a4f46a6814f85b0b0f8401cbbfd5c58f51a9dbae7"
-    },
-    {
-      "date": 1693234859428,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-21-success.log",
-      "hash": "8ad2ea9523e2fde95263b1fb948c27a2f6b704e2854f98649812e27772e402df"
-    },
-    {
-      "date": 1693238401775,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-22-success.log",
-      "hash": "67c4dc7d73d7fddb65b4332c3f39a06968f86a5b39f495641ced21c4414fdd49"
-    },
-    {
-      "date": 1693242690492,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-23-success.log",
-      "hash": "a6d093724f1af56e3fb912f8326886efd18b24cc2b9b09414b66deb6a4c902c0"
-    },
-    {
-      "date": 1693245665857,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-00-success.log",
-      "hash": "8c29baffcb8ecb4702fcf588808d5aa1aac20f1947d8eeb58da51940993b0ce0"
-    },
-    {
-      "date": 1693281785983,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-10-success.log",
-      "hash": "641bca5d2c010044e3fb26769f3c421122fcdf277e309fcf4982b9bbd9a7372f"
-    },
-    {
-      "date": 1693287206634,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-11-success.log",
-      "hash": "b28577a606d99e3c9f01e7484e07372dada229482aa5cd1ce9b0216d911419d0"
-    },
-    {
-      "date": 1693291018104,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-12-success.log",
-      "hash": "1ae4d62042befa9b469290b67a9b45ccfd1f9e00a002a9236d3aefb862432e37"
-    },
-    {
-      "date": 1693292565821,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-13-success.log",
-      "hash": "8c861756964b6b8c07c388bc351dc4aa7e3e65f50648ceca20197dbbd6bfef8a"
-    },
-    {
-      "date": 1693313495636,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-18-success.log",
-      "hash": "ef129bbe46cd9bced7a8ffb5013b720aaf5a002a62314e4864ec5bc128c21ff1"
-    },
-    {
-      "date": 1693314004890,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-19-success.log",
-      "hash": "3b1dc45fc5f9eee72d7adc48a0c460c24589acafcc864acc8705a7e8f75fa160"
-    },
-    {
-      "date": 1693321792308,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-21-success.log",
-      "hash": "6cc2f7fb4e13100c0b930d958264e29ec9bf4a2932f23efe5d608579f2c21c32"
-    },
-    {
-      "date": 1693328382610,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-22-success.log",
-      "hash": "a4b50f633943bdd70fc553277d78d5d7939e509234ba4b5ca28e838909e14121"
-    },
-    {
-      "date": 1693329625329,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-23-success.log",
-      "hash": "cb999f0bbadb8b816f9ef540f81adcef9e78092b229fa24117efd37b20708839"
-    },
-    {
-      "date": 1693384586699,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-14-success.log",
-      "hash": "bb6821415f53b7b70d82c3d06c4d0a12e743a1e71f4ff9e932f5954826ee8647"
-    },
-    {
-      "date": 1693386764551,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-15-success.log",
-      "hash": "6b6c772de3a4a4e2f082f1cf6b8521403acbcad193c97ac3f21170dec063a0be"
-    },
-    {
-      "date": 1693418187362,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-23-success.log",
-      "hash": "aea57691cf7894722e7edfc87f3e470ae0580d6358f882686bc5caf3f83728e1"
-    },
-    {
-      "date": 1693418446155,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-00-success.log",
-      "hash": "826562b739272c96492aaea68a5b66975048bc70f5669181b2fb8209d7050fb2"
-    },
-    {
-      "date": 1693422013113,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-01-success.log",
-      "hash": "fbd50f07a7f4b56a3e611d1b80cb57e321f9c7f33defb714beeaedbd0ea5738f"
-    },
-    {
-      "date": 1693426057086,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-02-success.log",
-      "hash": "7a9d5f78656e75e5a3a8a20312ef8fa4b3cbf428feff32c1b0667fb1c3f3c98a"
-    },
-    {
-      "date": 1693454970138,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-10-success.log",
-      "hash": "9d1475a722f09dc0e7d18ea40a7dc805af4d2dc94f1c999e7f5963964dbcdd70"
-    },
-    {
-      "date": 1693458791451,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-11-success.log",
-      "hash": "215fd39f2518994a89651c4bb102055ed1a3d2e84e1918c3cc46002c2fa5da95"
-    },
-    {
-      "date": 1693462591847,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-12-success.log",
-      "hash": "7dc03e2edb3f60f0a4e035f27e36c5c412208420103cd54fd14b1c70309005c0"
-    },
-    {
-      "date": 1693472269332,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-14-success.log",
-      "hash": "98d48e528f131056da599e9a33e897408057a32e5f87f6e28893a558f2a6c7f8"
-    },
-    {
-      "date": 1693472405122,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-15-success.log",
-      "hash": "fc01f0531cbebc2f84dc10462c0c797b60ea161564c5fc9a10456ff04cd8563e"
-    },
-    {
-      "date": 1693479698276,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-17-success.log",
-      "hash": "77ebe5bc5ef57a94f1fd622aad7bf6429672a97cc2b70ee12409e8edead54546"
-    },
-    {
-      "date": 1693483261148,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-18-success.log",
-      "hash": "744e2dab84382f2ed0b49c6d0b794bb91753795ccb051c7850bf5672dca994b8"
-    },
-    {
-      "date": 1693492314436,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-20-success.log",
-      "hash": "ad83d5ff5a79e8fcb0b68eb60390f65f37ff8a2bd3a61a3659aedc7cf3b6b43c"
-    },
-    {
-      "date": 1693503928145,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-23-success.log",
-      "hash": "bc509c43d8abacb21900dbdb9e40bd1d3f6d96b9663ad2e2c2e4912e3e29dd0c"
-    },
-    {
-      "date": 1693505696770,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-00-success.log",
-      "hash": "782aea00af36e78da609f6761f9a7428e91ac650b5a852c42e01650e0d04ed61"
-    },
-    {
-      "date": 1693511624648,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-01-success.log",
-      "hash": "5d6f8cf9690686f4830add17c68fdc139bb626b3488dadd0807dfc04745536d4"
-    },
-    {
-      "date": 1693512050884,
-      "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-02-success.log",
-      "hash": "678b22f625ba508d3ccfd6f3e104c54a986535c4e810c20ab4d0dda2dddce143"
-    }
-  ],
-  "hashType": "sha256"
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\.9e00005645405fef125522dafa70acc4e75dab7f-audit.json",
+    "files": [
+        {
+            "date": 1692789600414,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-17-success.log",
+            "hash": "13576e87e2bb2e5d22ebff0a7be2d74e81612b24af6707b4aa951a4de704f0d3"
+        },
+        {
+            "date": 1692796046057,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-19-success.log",
+            "hash": "5575c78a2eded1328cbeec30973821dbf922ee4c1db1ca8124bc2d4aae4cc30c"
+        },
+        {
+            "date": 1692799265199,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-20-success.log",
+            "hash": "7026b743e938ec60dc83f099c06ddf094a7e001d2c31baea3e4989620319a70e"
+        },
+        {
+            "date": 1692806879500,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-22-success.log",
+            "hash": "a97517ede0a0a42c971e3349ed85aafb5dbc70ccf29adebe76d75168411568fe"
+        },
+        {
+            "date": 1692810027775,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-23-23-success.log",
+            "hash": "62e8cda02b2a85d63fd61bba1b4b427b77407c68402c6035afa5a974203e3074"
+        },
+        {
+            "date": 1692818136606,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-01-success.log",
+            "hash": "cfdf1064db73624311a27137b4bffa8101295dcbcd11440e7cc507ac89c9cd50"
+        },
+        {
+            "date": 1692820800261,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-02-success.log",
+            "hash": "6408d97c67b9b91fb8348aca7cd235819f2a2672465e8033217f7ab2da563bf0"
+        },
+        {
+            "date": 1692853087761,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-10-success.log",
+            "hash": "a3e67e506d216d6b619d842dbb210d84deaa91ecbdffae1f1ae0ddeb30bd6faa"
+        },
+        {
+            "date": 1692853210300,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-11-success.log",
+            "hash": "30055122be58590fc8bce9da59d1211b7ff625366ada892a3b06e1cd4f70d2a9"
+        },
+        {
+            "date": 1692889758141,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-21-success.log",
+            "hash": "117a1ebf400b8a159ec6948a273f8393bbeefcceb2aa034265f757969a5f12d6"
+        },
+        {
+            "date": 1692897320523,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-24-23-success.log",
+            "hash": "ba7e79c18564bb2100386d3295796f6bc615f2e48b530181fb0afbf9f29697b4"
+        },
+        {
+            "date": 1692900116916,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-25-00-success.log",
+            "hash": "3fbf72414bc69f7947063437dabe7e3b149360b19dcc8e61e6244b673fa37e82"
+        },
+        {
+            "date": 1692904247322,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-25-01-success.log",
+            "hash": "1a816aec235644e9dd95a52a8033d1416aabe81f83e66aaa6fe0677f92d2f881"
+        },
+        {
+            "date": 1692992838856,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-01-success.log",
+            "hash": "734e791a8abc60df10d4f912f3eab3a86ee81b58cec76d86c05df3a7b4a74d28"
+        },
+        {
+            "date": 1693046922569,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-16-success.log",
+            "hash": "e4b33b95236ddaa1c94f45aa0cc09dafa3fbfcd55dd159c6dbfbc31066f1a747"
+        },
+        {
+            "date": 1693051188162,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-17-success.log",
+            "hash": "3ef6217baa4b95b45b6c146b6f277ed21da8ca2533af349c5cc28ae4ba793072"
+        },
+        {
+            "date": 1693051975236,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-18-success.log",
+            "hash": "60f9479dd08cc32cebe89d3d2062036a6286b048256f536891734644b55c95c5"
+        },
+        {
+            "date": 1693055691691,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-19-success.log",
+            "hash": "15d3dbf43dced1a80e19f242be27ea5f80cbc253b5731ad02d113acc13248b30"
+        },
+        {
+            "date": 1693059654458,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-20-success.log",
+            "hash": "2851baa6908af5c3def583f1d588850d8cb6977d027d0671cb31bca6d1b6a5de"
+        },
+        {
+            "date": 1693062641902,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-21-success.log",
+            "hash": "c489424bb5c8e7f299b89aa3c95a19724951fdf125de0d70c86f385ccb396faa"
+        },
+        {
+            "date": 1693069880365,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-26-23-success.log",
+            "hash": "755e54624a66c22c0e1ff20e88964d4c407064b3f1048eb9100820defc3f9bef"
+        },
+        {
+            "date": 1693073339188,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-00-success.log",
+            "hash": "60f9152dc2a1d0412ff75f398c0b85bbc93317aba88bf1204391e736dcb6241a"
+        },
+        {
+            "date": 1693076730572,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-01-success.log",
+            "hash": "fd058090a13926f5b16441416fdb9cf0442bfd70b7e8cfe354a715837a59db4b"
+        },
+        {
+            "date": 1693112878316,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-11-success.log",
+            "hash": "f21a3b9537b55e287adb2ab33da12dcd7058cca6c1a17f3a1a535b2eb60b1f6a"
+        },
+        {
+            "date": 1693119605740,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-13-success.log",
+            "hash": "76f694101ef2c909b731a4b63ad59af59ac2493494bda0933ba2a1c42c068686"
+        },
+        {
+            "date": 1693125632118,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-14-success.log",
+            "hash": "b6575726311fdc2c8efadbe8b30001ab55b2ed3c55c0f982bd8761e0eb78945d"
+        },
+        {
+            "date": 1693131126891,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-16-success.log",
+            "hash": "f8df3507b6f6a7c8f6612646b6fd6e1052122aa6239e74ee41570064e046f5a8"
+        },
+        {
+            "date": 1693156872651,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-27-23-success.log",
+            "hash": "741cbdad02a0c540b3b0e2737d0b14b5243e55d67f0644083a4eb6f278345d07"
+        },
+        {
+            "date": 1693161367686,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-00-success.log",
+            "hash": "f21cb3f979636e300e458a31163b16b4bfce55397b90849430e6b8c7fdd9b7b6"
+        },
+        {
+            "date": 1693197224176,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-10-success.log",
+            "hash": "2f4ded27d10cdf855fb1eb1e918d19f643375654eb5cdfd29761b4e2cc18582f"
+        },
+        {
+            "date": 1693198877483,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-11-success.log",
+            "hash": "e241c0fee9d7e114e09ebf903d544747f16e1aa579b6d067543db64a5bee921b"
+        },
+        {
+            "date": 1693205848966,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-12-success.log",
+            "hash": "26a87101270a2412cdcaeb27c3f7ad1c672bbb51133a6410b83c4fd1a7c60289"
+        },
+        {
+            "date": 1693208881403,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-13-success.log",
+            "hash": "bcd958b36e0cc10be8136b030d2904cb350fcd758887d90eab25265e46cdaf4f"
+        },
+        {
+            "date": 1693214244769,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-15-success.log",
+            "hash": "b98e499bfef9e1dfc60cc918985ec2df753c233a1a58f7adef14494ec2bb4eeb"
+        },
+        {
+            "date": 1693216800946,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-16-success.log",
+            "hash": "52111ae312e04bb412ae97169764159f086744ffec4d30a5d7a405388f6c7d77"
+        },
+        {
+            "date": 1693220422975,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-17-success.log",
+            "hash": "b9adedab3697e9431aca920b8107e1ccd84db77b03c826540aef9b4dfa3932d5"
+        },
+        {
+            "date": 1693225729887,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-18-success.log",
+            "hash": "65872e6da7f5e0d74b9885fbd0aab316a8c12f4cc09d09c7c672f86c33ae97f1"
+        },
+        {
+            "date": 1693229619278,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-19-success.log",
+            "hash": "2e856d240dacaaaac88b9cb36dadef5408374674f346a6394e217b27cc4333cf"
+        },
+        {
+            "date": 1693234132744,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-20-success.log",
+            "hash": "67799887950fff792beb170a4f46a6814f85b0b0f8401cbbfd5c58f51a9dbae7"
+        },
+        {
+            "date": 1693234859428,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-21-success.log",
+            "hash": "8ad2ea9523e2fde95263b1fb948c27a2f6b704e2854f98649812e27772e402df"
+        },
+        {
+            "date": 1693238401775,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-22-success.log",
+            "hash": "67c4dc7d73d7fddb65b4332c3f39a06968f86a5b39f495641ced21c4414fdd49"
+        },
+        {
+            "date": 1693242690492,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-28-23-success.log",
+            "hash": "a6d093724f1af56e3fb912f8326886efd18b24cc2b9b09414b66deb6a4c902c0"
+        },
+        {
+            "date": 1693245665857,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-00-success.log",
+            "hash": "8c29baffcb8ecb4702fcf588808d5aa1aac20f1947d8eeb58da51940993b0ce0"
+        },
+        {
+            "date": 1693281785983,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-10-success.log",
+            "hash": "641bca5d2c010044e3fb26769f3c421122fcdf277e309fcf4982b9bbd9a7372f"
+        },
+        {
+            "date": 1693287206634,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-11-success.log",
+            "hash": "b28577a606d99e3c9f01e7484e07372dada229482aa5cd1ce9b0216d911419d0"
+        },
+        {
+            "date": 1693291018104,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-12-success.log",
+            "hash": "1ae4d62042befa9b469290b67a9b45ccfd1f9e00a002a9236d3aefb862432e37"
+        },
+        {
+            "date": 1693292565821,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-13-success.log",
+            "hash": "8c861756964b6b8c07c388bc351dc4aa7e3e65f50648ceca20197dbbd6bfef8a"
+        },
+        {
+            "date": 1693313495636,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-18-success.log",
+            "hash": "ef129bbe46cd9bced7a8ffb5013b720aaf5a002a62314e4864ec5bc128c21ff1"
+        },
+        {
+            "date": 1693314004890,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-19-success.log",
+            "hash": "3b1dc45fc5f9eee72d7adc48a0c460c24589acafcc864acc8705a7e8f75fa160"
+        },
+        {
+            "date": 1693321792308,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-21-success.log",
+            "hash": "6cc2f7fb4e13100c0b930d958264e29ec9bf4a2932f23efe5d608579f2c21c32"
+        },
+        {
+            "date": 1693328382610,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-22-success.log",
+            "hash": "a4b50f633943bdd70fc553277d78d5d7939e509234ba4b5ca28e838909e14121"
+        },
+        {
+            "date": 1693329625329,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-29-23-success.log",
+            "hash": "cb999f0bbadb8b816f9ef540f81adcef9e78092b229fa24117efd37b20708839"
+        },
+        {
+            "date": 1693384586699,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-14-success.log",
+            "hash": "bb6821415f53b7b70d82c3d06c4d0a12e743a1e71f4ff9e932f5954826ee8647"
+        },
+        {
+            "date": 1693386764551,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-15-success.log",
+            "hash": "6b6c772de3a4a4e2f082f1cf6b8521403acbcad193c97ac3f21170dec063a0be"
+        },
+        {
+            "date": 1693418187362,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-30-23-success.log",
+            "hash": "aea57691cf7894722e7edfc87f3e470ae0580d6358f882686bc5caf3f83728e1"
+        },
+        {
+            "date": 1693418446155,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-00-success.log",
+            "hash": "826562b739272c96492aaea68a5b66975048bc70f5669181b2fb8209d7050fb2"
+        },
+        {
+            "date": 1693422013113,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-01-success.log",
+            "hash": "fbd50f07a7f4b56a3e611d1b80cb57e321f9c7f33defb714beeaedbd0ea5738f"
+        },
+        {
+            "date": 1693426057086,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-02-success.log",
+            "hash": "7a9d5f78656e75e5a3a8a20312ef8fa4b3cbf428feff32c1b0667fb1c3f3c98a"
+        },
+        {
+            "date": 1693454970138,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-10-success.log",
+            "hash": "9d1475a722f09dc0e7d18ea40a7dc805af4d2dc94f1c999e7f5963964dbcdd70"
+        },
+        {
+            "date": 1693458791451,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-11-success.log",
+            "hash": "215fd39f2518994a89651c4bb102055ed1a3d2e84e1918c3cc46002c2fa5da95"
+        },
+        {
+            "date": 1693462591847,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-12-success.log",
+            "hash": "7dc03e2edb3f60f0a4e035f27e36c5c412208420103cd54fd14b1c70309005c0"
+        },
+        {
+            "date": 1693472269332,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-14-success.log",
+            "hash": "98d48e528f131056da599e9a33e897408057a32e5f87f6e28893a558f2a6c7f8"
+        },
+        {
+            "date": 1693472405122,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-15-success.log",
+            "hash": "fc01f0531cbebc2f84dc10462c0c797b60ea161564c5fc9a10456ff04cd8563e"
+        },
+        {
+            "date": 1693479698276,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-17-success.log",
+            "hash": "77ebe5bc5ef57a94f1fd622aad7bf6429672a97cc2b70ee12409e8edead54546"
+        },
+        {
+            "date": 1693483261148,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-18-success.log",
+            "hash": "744e2dab84382f2ed0b49c6d0b794bb91753795ccb051c7850bf5672dca994b8"
+        },
+        {
+            "date": 1693492314436,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-20-success.log",
+            "hash": "ad83d5ff5a79e8fcb0b68eb60390f65f37ff8a2bd3a61a3659aedc7cf3b6b43c"
+        },
+        {
+            "date": 1693503928145,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-08-31-23-success.log",
+            "hash": "bc509c43d8abacb21900dbdb9e40bd1d3f6d96b9663ad2e2c2e4912e3e29dd0c"
+        },
+        {
+            "date": 1693505696770,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-00-success.log",
+            "hash": "782aea00af36e78da609f6761f9a7428e91ac650b5a852c42e01650e0d04ed61"
+        },
+        {
+            "date": 1693511624648,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-01-success.log",
+            "hash": "5d6f8cf9690686f4830add17c68fdc139bb626b3488dadd0807dfc04745536d4"
+        },
+        {
+            "date": 1693512050884,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-02-success.log",
+            "hash": "678b22f625ba508d3ccfd6f3e104c54a986535c4e810c20ab4d0dda2dddce143"
+        },
+        {
+            "date": 1693544689669,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-11-success.log",
+            "hash": "5a1cbc952da29040dd504d2ca6991ce19112c07b8407a30c8c47aaeedae586c5"
+        },
+        {
+            "date": 1693557178388,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-14-success.log",
+            "hash": "47ffc8ed76304cf75b3af7c3829b471c33c1184935c8b50501d9ea2ee30414a1"
+        },
+        {
+            "date": 1693564242923,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-16-success.log",
+            "hash": "d681db7c7f0a99a802bd7aecb0e5817aeca7551370105d57d20c10fad211a856"
+        },
+        {
+            "date": 1693566284113,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-17-success.log",
+            "hash": "8b48b731f30df3dcde0ecefa49d7ca9509cc9a6a417508d13cdc4bcd696aebe0"
+        },
+        {
+            "date": 1693573497084,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-19-success.log",
+            "hash": "51c64e4639509a457eb398c2fb8e647a71ebdfed6de5851b47bec46190d70af4"
+        },
+        {
+            "date": 1693581267168,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-21-success.log",
+            "hash": "0805a6f4c2dd6c5a544d6fa8f13194a89c5b9a94765f56d5bfcc15d118d3182c"
+        },
+        {
+            "date": 1693589386343,
+            "name": "C:\\Users\\sohan computer\\Desktop\\university_Management2\\Logs\\Winston\\success\\success-2023-09-01-23-success.log",
+            "hash": "33efea55e93268349d07c13879cfff8ebecab012e89e31b8f002f22497dde398"
+        }
+    ],
+    "hashType": "sha256"
 }

@@ -8,18 +8,19 @@ import { AcademicSemester } from '../AcademicSemester/AcademicSemeterModel';
 import mongoose from 'mongoose';
 import { Student } from '../student/student.model';
 import status from 'http-status-codes';
+import { IAcademicSemester } from '../AcademicSemester/AcademicSemeterInterface';
 
 const createStudent = async (
   student: IStudent,
-  users: IUSER,
+  user: IUSER,
 ): Promise<IUSER | null> => {
   // setup default password
-  if (!users.password) {
-    users.password = config.StudentPassword as string;
+  if (!user.password) {
+    user.password = config.StudentPassword as string;
   }
 
   // set role
-  users.role = 'student';
+  user.role = 'student';
   const academicSemester = await AcademicSemester.findById(
     student.academicSemester,
   ).lean();
@@ -29,20 +30,24 @@ const createStudent = async (
   const session = await mongoose.startSession();
   try {
     session.startTransaction();
-    const id = await generateStudentId(academicSemester);
-    users.id = id;
+    const id = await generateStudentId(academicSemester as IAcademicSemester);
+    user.id = id;
     student.id = id;
     const newStudent = await Student.create([student], { session });
+    console.log(newStudent, id, 'id', 'Student');
     // newStudent
     if (!newStudent.length) {
       throw new ApiError(status.BAD_REQUEST, 'Field to create student');
     }
-    users.student = newStudent[0]._id;
+
+    user.student = newStudent[0]._id;
     // newUser
-    const newUser = await User.create([users], { session });
+
+    const newUser = await User.create([user], { session });
     if (!newUser.length) {
       throw new ApiError(status.BAD_REQUEST, 'Field to create user');
     }
+    console.log(newUser, 'newUser');
     newAllUserData = newUser[0];
 
     await session.commitTransaction();
