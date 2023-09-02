@@ -21,6 +21,32 @@ const getAllStudent = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getSingleStudent = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await studentService.getSingleStudent(id);
+  sendResponse<IStudent | null>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully retrived single student data',
+    data: result,
+  });
+});
+
+const updateSingleStudent = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const upadateData = req.body;
+  const result = await studentService.updateSingleStudent(id, upadateData);
+
+  sendResponse<IStudent | null>(res, {
+    statusCode: status.OK,
+    success: true,
+    message: 'Successfully update single student data',
+    data: result,
+  });
+});
+
 export const studentControll = {
   getAllStudent,
+  getSingleStudent,
+  updateSingleStudent,
 };
