@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { SortOrder } from 'mongoose';
+import mongoose, { SortOrder } from 'mongoose';
 import { IPaginationOptions } from '../../../Interfaces/paginations';
 import { paginationHelper } from '../../../helpers/paginationHelper';
 import { studentSearchableFields } from './student.constant';
@@ -8,6 +8,7 @@ import { Student } from './student.model';
 import { IGenericResponse } from '../../../Interfaces/IgenericResponse';
 import ApiError from '../../../Errors/ApiErrors';
 import status from 'http-status-codes';
+import { User } from '../Users/User.model';
 
 const getAllStudent = async (
   filters: IStudentFilters,
@@ -108,8 +109,34 @@ const updateSingleStudent = async (
   return result;
 };
 
+const deleteSingleStudent = async (id: string): Promise<IStudent | null> => {
+  const isExist = await Student.findOne({ id });
+
+  if (!isExist) {
+    throw new ApiError(status.BAD_REQUEST, 'Student not Found');
+  }
+  const session = await mongoose.startSession();
+  try {
+    session.startTransaction();
+    const student = await Student.findOneAndDelete({ id });
+
+    if (!student) {
+      throw new ApiError(404, 'Filed to deletee student');
+    }
+    await User.deleteOne({ id });
+    session.commitTransaction();
+    session.endSession();
+
+    return student;
+  } catch (error) {
+    session.abortTransaction();
+    throw error;
+  }
+};
+
 export const studentService = {
   getAllStudent,
   getSingleStudent,
   updateSingleStudent,
+  deleteSingleStudent,
 };
